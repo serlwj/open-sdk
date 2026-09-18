@@ -3,8 +3,7 @@ import './component.scss';
 
 class MyComponent {
   render(props: Interfaces.LifecycleProps<Interfaces.AIComponentProps>) {
-    const customProps = props.customProps!;
-    const { data, encoding } = customProps;
+    const { data, encoding } = props.customProps!;
 
     props.container!.innerHTML = `<pre>${JSON.stringify(
       { encoding, rowCount: data?.values?.length ?? 0 },
