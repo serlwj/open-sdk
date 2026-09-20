@@ -1,5 +1,11 @@
 # create-qbi-app
 
+## 1.0.11
+
+### Patch Changes
+
+- 7056865: 模版增加@types/json-schema 依赖
+
 ## 1.0.10
 
 ### Patch Changes
